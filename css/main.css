@@ -1,0 +1,172 @@
+body{min-width: 320px;}
+.bg-header{
+	background-color: #eae8e9;
+}
+.bg-header ul{
+	margin-bottom: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.bg-header .row{
+	padding: 15px;
+}
+
+
+
+#main_img{
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.double_round{
+	position: absolute;
+    left: 61%;
+    top: 70%;
+
+
+}
+
+.round{
+	background-color: #c8c10d;
+	color: white;
+    font-size: 2em;
+  	width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    z-index: 3;
+    line-height: 1;
+
+
+}
+.round_2{
+	margin-top: -172px;
+    margin-left: 10px;
+	color: white;
+    font-size: 2em;
+    background-color: #ca315b;
+    width: 160px;
+    height: 160px;
+    padding: 25px;
+    padding-top: 42px;
+    border-radius: 100px;
+    z-index: 3;
+    line-height: 1;
+}
+
+
+.cake{
+	width: 100%;
+	background-color: #eae7e8;
+	margin: 0 auto;
+
+}
+
+.cake p{
+	text-align: justify;
+	display: block;
+}
+
+.cake h3{
+	padding-top: 15px;
+	color: #e32a62;
+	display: block;
+}
+.cake h4{
+	padding-top: 40px;
+	color: #7a6666;
+	display: block;
+	width: 50%;
+
+}
+.cake span {
+	font-weight: bold;
+	display: inline-block;
+	padding-left: 90px;
+	width: 835px;
+
+}
+.cake>div{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding:0 10px;
+}
+@media (min-width: 600px){
+	 .cake>div{flex-direction: row;}
+}
+
+.bottom {
+	background-color: #c8c10d;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.bottom a {color: white;padding-top: 10px;
+margin:0 10px;}
+
+.bottom>a:nth-child(1){
+	 padding-right: 5px;
+
+}
+.bottom>a:nth-child(2){
+	 padding-right: 20px;
+	 flex-direction: column;
+}
+.bottom a:hover{
+	text-decoration: none;
+}
+
+
+.header_2{
+	background-color: #c8c10d;
+	display: flex;
+	justify-content: center;
+}
+.header_2 h3{
+	color: white;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	font-weight: normal;
+}
+
+
+footer{display: flex;
+	justify-content: center;
+	background-color: #cb3362;
+	height: 150px;
+	align-items: center;
+}
+footer img{
+	width: 50px;
+	display: block;
+}
+footer a{
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.clearfix{
+	content: " ";
+	display: block;
+	clear: both;
+}
+#hover{
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: #c8c10d;
+	z-index: 9999;
+	padding: 5px;
+
+}
+#hover a{text-decoration: none;	color: white;}
+
+#single_post:hover #hover {visibility: visible;}
