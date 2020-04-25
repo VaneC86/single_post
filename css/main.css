@@ -189,6 +189,16 @@ footer a{
 	padding-left: 30px;
 }
 
+#berry a{
+	display: block;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 5px;
+	width: 17%;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
 main{
 justify-content: space-between;
 	display: flex;
@@ -221,4 +231,14 @@ main h3, main h2{
 	display: block;
 	border-radius: 50%;
 	margin-bottom: 20px;
+}
+
+.sidebar a{
+	display: block;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 5px;
+	width: 30%;
+	margin: 0 auto;
+	text-decoration: none;
 }
